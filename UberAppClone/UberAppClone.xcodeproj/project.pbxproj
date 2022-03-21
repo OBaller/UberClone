@@ -12,9 +12,6 @@
 		B406233227E86CC000F520FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406233127E86CC000F520FC /* ContentView.swift */; };
 		B406233427E86CCF00F520FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B406233327E86CCF00F520FC /* Assets.xcassets */; };
 		B406233727E86CCF00F520FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B406233627E86CCF00F520FC /* Preview Assets.xcassets */; };
-		B406233927E86CCF00F520FC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406233827E86CCF00F520FC /* Persistence.swift */; };
-		B406233C27E86CCF00F520FC /* UberAppClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B406233A27E86CCF00F520FC /* UberAppClone.xcdatamodeld */; };
-		B406234327E86E5900F520FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406234227E86E5900F520FC /* AppDelegate.swift */; };
 		B406234527E86EBA00F520FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B406234427E86EBA00F520FC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -27,9 +24,6 @@
 		B406233127E86CC000F520FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B406233327E86CCF00F520FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B406233627E86CCF00F520FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B406233827E86CCF00F520FC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		B406233B27E86CCF00F520FC /* UberAppClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UberAppClone.xcdatamodel; sourceTree = "<group>"; };
-		B406234227E86E5900F520FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B406234427E86EBA00F520FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,10 +64,7 @@
 				B406232F27E86CC000F520FC /* UberAppCloneApp.swift */,
 				B406233127E86CC000F520FC /* ContentView.swift */,
 				B406233327E86CCF00F520FC /* Assets.xcassets */,
-				B406233827E86CCF00F520FC /* Persistence.swift */,
-				B406233A27E86CCF00F520FC /* UberAppClone.xcdatamodeld */,
 				B406233527E86CCF00F520FC /* Preview Content */,
-				B406234227E86E5900F520FC /* AppDelegate.swift */,
 			);
 			path = UberAppClone;
 			sourceTree = "<group>";
@@ -100,7 +91,6 @@
 				9942B76FC4A266981AABEDFB /* Pods-UberAppClone.debug.xcconfig */,
 				0DB1EA33EE1B848BBB8E05B6 /* Pods-UberAppClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -219,10 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B406233927E86CCF00F520FC /* Persistence.swift in Sources */,
-				B406233C27E86CCF00F520FC /* UberAppClone.xcdatamodeld in Sources */,
 				B406233227E86CC000F520FC /* ContentView.swift in Sources */,
-				B406234327E86E5900F520FC /* AppDelegate.swift in Sources */,
 				B406233027E86CC000F520FC /* UberAppCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,19 +415,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B406233A27E86CCF00F520FC /* UberAppClone.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B406233B27E86CCF00F520FC /* UberAppClone.xcdatamodel */,
-			);
-			currentVersion = B406233B27E86CCF00F520FC /* UberAppClone.xcdatamodel */;
-			path = UberAppClone.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B406232427E86CBF00F520FC /* Project object */;
 }
